@@ -43,6 +43,7 @@ class BooksController extends Controller
             'judul' => 'required',
             'author' => 'required',
             'sinopsis' => 'required',
+            'penerbit' => 'required',
             'cover_buku' => 'image|file|max:5120',
             'isi_buku' => 'required'
         ]);
@@ -96,6 +97,7 @@ class BooksController extends Controller
             'judul' => 'required',
             'author' => 'required',
             'sinopsis' => 'required',
+            'penerbit' => 'required',
             // 'cover_buku' => 'image|file|max:5120',
             'isi_buku' => 'required'
         ]);

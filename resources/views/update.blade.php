@@ -48,6 +48,10 @@
                     <input type="text" class="form-control" id="sinopsis" aria-describedby="emailHelp" name="sinopsis" value="{{ $books->sinopsis }}">
                 </div>
                 <div class="mb-3">
+                    <label for="penerbit" class="form-label fw-bold">Penerbit</label>
+                    <input type="text" class="form-control" id="penerbit" aria-describedby="emailHelp" name="penerbit" value="{{ $books->penerbit }}">
+                </div>
+                <div class="mb-3">
                     <label for="image" class="form-label fw-bold">Gambar Cover Buku</label>
                     <input type="hidden" name="old_cover" value="{{ $books->cover_buku }}">
                     <input type="file" class="form-control" id="image" name="cover_buku">

@@ -18,6 +18,7 @@ class CreateBooksTable extends Migration
             $table->string('judul');
             $table->string('author');
             $table->string('sinopsis');
+            $table->string('penerbit');
             $table->string('cover_buku')->nullable();
             $table->text('isi_buku');
             $table->timestamps();

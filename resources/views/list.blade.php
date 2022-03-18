@@ -44,6 +44,7 @@
                         <th scope="col">Judul Buku</th>
                         <th scope="col">Author</th>
                         <th scope="col">Sinopsis</th>
+                        <th scope="col">Penerbit</th>
                         <th scope="col">Handle</th>
                       </tr>
                     </thead>
@@ -57,6 +58,7 @@
                           <td>{{ $book->judul }}</td>
                           <td>{{ $book->author }}</td>
                           <td>{{ $book->sinopsis }}</td>
+                          <td>{{ $book->penerbit }}</td>
                           <td>
                               <a href="{{ url('Books', $book->id) }}"" class="btn btn-primary"><i class="bi bi-eye-fill"></i></a>
                               <a href="Books/{{ $book->id }}/edit" class="btn btn-warning"><i class="bi bi-pencil-square"></i></a>

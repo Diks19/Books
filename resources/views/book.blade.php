@@ -11,6 +11,7 @@
       <div class="col-lg-8">
         <h1 class="mb-2">{{ $books->judul }}</h1>
         <p class="fs-5">Author : {{ $books->author }}</p>
+        <p class="fs-5">Penerbit : {{ $books->penerbit }}</p>
 
         <a href="{{ $books->id }}/edit" class="btn btn-warning mb-3">Edit Buku</a>
         <form action="{{ url('Books', $books->id) }}" method="post" class="d-inline"> 
